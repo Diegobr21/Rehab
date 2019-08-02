@@ -23,20 +23,14 @@
     <TextView
         android:layout_marginTop="15dp"
         android:clickable="true"
-        android:textSize="40sp"
+        android:textSize="22sp"
+        android:textColor="@android:color/black"
+        android:textAlignment="center"
+        android:text="Da click para seleccionar fecha"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/fecha"/>
-    <TextView
-        android:layout_marginTop="15dp"
-        android:clickable="true"
-        android:textSize="10sp"
-        android:textColor="@android:color/black"
-        android:textAlignment="center"
-        android:text="Da click para seleccionar otra fecha"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        />
+
 
     <ListView
 
@@ -51,5 +45,15 @@
         tools:listitem="@layout/elementolista">
 
     </ListView>
+
+    <Button
+        android:backgroundTint="@android:color/holo_blue_dark"
+        android:textColor="@android:color/holo_green_light"
+        android:layout_width="100dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="160dp"
+        android:text="Siguiente"
+        android:layout_height="wrap_content"
+        android:id="@+id/next"/>
 
 </LinearLayout>

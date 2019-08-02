@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Contador">
+
+    <TextView
+        android:id="@+id/conteo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="70dp"
+        android:textSize="35sp"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"
+        android:textAlignment="center"/>
+
+    <Button
+        android:background="@drawable/circulo"
+        android:backgroundTint="@android:color/holo_blue_dark"
+        android:textColor="@android:color/holo_orange_light"
+        android:textStyle="bold"
+        android:id="@+id/btn_contador"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_width="120dp"
+        android:layout_height="110dp"
+        android:text="Contador" />
+
+    <Button
+        android:id="@+id/reset"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_below="@+id/btn_contador"
+        android:text="RESET"
+        android:layout_centerHorizontal="true"/>
+</RelativeLayout>
