@@ -77,4 +77,11 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="20dp"
         android:id="@+id/pausa"/>
+    <TextView
+        android:id="@+id/clickpmin"
+        android:layout_marginTop="15dp"
+        android:layout_below="@+id/pausa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"/>
 </RelativeLayout>

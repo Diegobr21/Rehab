@@ -8,6 +8,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.Chronometer;
 import android.widget.TextView;
+import android.widget.Toast;
 
 public class Contador extends AppCompatActivity {
     private Button contador;
@@ -15,9 +16,11 @@ public class Contador extends AppCompatActivity {
     private Chronometer chronometer;
     private Button reset;
     private TextView conteo;
+    private TextView clickpmin;
     private Button pausa;
     public int clicks;
     private long pauseoff;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -25,11 +28,39 @@ public class Contador extends AppCompatActivity {
         setContentView(R.layout.activity_contador);
 
         chronometer= findViewById(R.id.cronos);
+        chronometer.setBase(SystemClock.elapsedRealtime());
         contador= findViewById(R.id.btn_contador);
         reset = findViewById(R.id.reset);
         conteo= findViewById(R.id.conteo);
         pausa = findViewById(R.id.pausa);
         conteo.setText("");
+        clickpmin=findViewById(R.id.clickpmin);
+        clickpmin.setText("Clicks en 0"+" minuto(s): "+clicks);
+
+        chronometer.setOnChronometerTickListener(new Chronometer.OnChronometerTickListener() {
+            @Override
+            public void onChronometerTick(Chronometer chronometer) {
+
+                int t=60000;
+                int v=1;
+
+                for(int i=0; i<10; i++){
+
+                    long x = (SystemClock.elapsedRealtime() - chronometer.getBase());
+
+                    if( x >= t ){
+
+                        clickpmin.setText("Clicks en "+v+" minuto(s): "+clicks);
+                        //Toast.makeText(Contador.this, "Clicks en "+ v + "minuto(s): "+ clicks, Toast.LENGTH_LONG).show();
+                    }
+                    t+=60000;
+                    v++;
+
+
+
+                }
+            }
+        });
 
         contador.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -87,5 +118,9 @@ public class Contador extends AppCompatActivity {
     private void contar(){
         clicks++;
         conteo.setText(clicks + "");
+    }
+
+    private void getClicks(){
+
     }
 }
