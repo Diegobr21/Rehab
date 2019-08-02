@@ -11,7 +11,7 @@ public class Contador extends AppCompatActivity {
     private Button contador;
     private Button reset;
     private TextView conteo;
-    public int clicks = 0;
+    public int clicks;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -21,7 +21,7 @@ public class Contador extends AppCompatActivity {
         contador= findViewById(R.id.btn_contador);
         reset = findViewById(R.id.reset);
         conteo= findViewById(R.id.conteo);
-        conteo.setText(clicks);
+        conteo.setText("");
 
         contador.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -37,15 +37,17 @@ public class Contador extends AppCompatActivity {
                 resetear();
             }
         });
+
+        resetear();
     }
 
     private void resetear(){
         clicks = 0;
-        conteo.setText(clicks);
+        conteo.setText(clicks + "");
     }
 
     private void contar(){
         clicks++;
-        conteo.setText(clicks);
+        conteo.setText(clicks + "");
     }
 }

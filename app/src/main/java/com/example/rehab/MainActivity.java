@@ -86,9 +86,9 @@ public class MainActivity extends AppCompatActivity implements DatePickerDialog.
                     {"Por minuto","5"}};
 
     public void mnext(){
-        Intent intent = new Intent(this, Contador.class);
+        Intent intent1 = new Intent(this, Contador.class);
 
-        startActivity(intent);
+        startActivity(intent1);
     }
 
 

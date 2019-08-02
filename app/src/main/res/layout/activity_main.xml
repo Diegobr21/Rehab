@@ -50,7 +50,6 @@
         android:backgroundTint="@android:color/holo_blue_dark"
         android:textColor="@android:color/holo_green_light"
         android:layout_width="100dp"
-        android:layout_marginTop="50dp"
         android:layout_marginLeft="160dp"
         android:text="Siguiente"
         android:layout_height="wrap_content"
