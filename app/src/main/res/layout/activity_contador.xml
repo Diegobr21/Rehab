@@ -8,6 +8,14 @@
     tools:context=".Contador">
 
     <TextView
+        android:layout_marginTop="30dp"
+        android:textSize="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="# de clicks: "/>
+
+    <TextView
         android:id="@+id/conteo"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -18,6 +26,26 @@
         android:textStyle="bold"
         android:textAlignment="center"/>
 
+    
+
+    <TextView
+        android:layout_marginTop="30dp"
+        android:layout_below="@+id/conteo"
+        android:textSize="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="Tiempo "/>
+    
+    <Chronometer
+        android:id="@+id/cronos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btn_contador"
+        android:layout_centerHorizontal="true"
+        android:textSize="25sp"
+        android:layout_marginBottom="70dp"/>
+
     <Button
         android:background="@drawable/circulo"
         android:backgroundTint="@android:color/holo_blue_dark"
@@ -26,16 +54,27 @@
         android:id="@+id/btn_contador"
         android:layout_centerHorizontal="true"
         android:layout_centerVertical="true"
-        android:layout_width="120dp"
-        android:layout_height="110dp"
+        android:layout_width="125dp"
+        android:layout_height="125dp"
         android:text="Contador" />
 
     <Button
         android:id="@+id/reset"
+        android:backgroundTint="@android:color/holo_orange_dark"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="40dp"
         android:layout_below="@+id/btn_contador"
         android:text="RESET"
         android:layout_centerHorizontal="true"/>
+
+    <Button
+        android:layout_below="@+id/reset"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pausa"
+        android:backgroundTint="@android:color/holo_red_light"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:id="@+id/pausa"/>
 </RelativeLayout>

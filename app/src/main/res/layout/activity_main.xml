@@ -14,14 +14,14 @@
         android:text="Contador de toques en logo de app"
         android:textAlignment="center"
         android:textColor="@android:color/holo_red_light"
-        android:textSize="20sp"
-        android:layout_marginTop="20dp"/>
+        android:textSize="30sp"
+        android:layout_marginTop="30dp"/>
 
 
 
 
     <TextView
-        android:layout_marginTop="15dp"
+        android:layout_marginTop="25dp"
         android:clickable="true"
         android:textSize="22sp"
         android:textColor="@android:color/black"
@@ -52,7 +52,7 @@
         android:layout_width="100dp"
         android:layout_marginLeft="160dp"
         android:text="Siguiente"
-        android:layout_height="wrap_content"
+        android:layout_height="50dp"
         android:id="@+id/next"/>
 
 </LinearLayout>
