@@ -20,6 +20,7 @@ public class Contador extends AppCompatActivity {
     private Button pausa;
     public int clicks;
     private long pauseoff;
+    public  int c[]={};
 
 
     @Override
@@ -35,7 +36,7 @@ public class Contador extends AppCompatActivity {
         pausa = findViewById(R.id.pausa);
         conteo.setText("");
         clickpmin=findViewById(R.id.clickpmin);
-        clickpmin.setText("Clicks en 0"+" minuto(s): "+clicks);
+        clickpmin.setText("Clicks en 0"+" minuto(s): 0");
 
         chronometer.setOnChronometerTickListener(new Chronometer.OnChronometerTickListener() {
             @Override
@@ -44,15 +45,23 @@ public class Contador extends AppCompatActivity {
                 int t=60000;
                 int v=1;
 
-                for(int i=0; i<10; i++){
+                for(int i=0; i<60; i++){
 
                     long x = (SystemClock.elapsedRealtime() - chronometer.getBase());
 
                     if( x >= t ){
 
-                        clickpmin.setText("Clicks en "+v+" minuto(s): "+clicks);
+
+                        clickpmin.setText("Clicks en "+v+" minuto(s): "+ clicks);
                         //Toast.makeText(Contador.this, "Clicks en "+ v + "minuto(s): "+ clicks, Toast.LENGTH_LONG).show();
                     }
+                   /* int y= (int)x;
+                    switch (y){
+                        case 60000 :
+
+                            break;
+                    }
+                    */
                     t+=60000;
                     v++;
 
@@ -98,6 +107,7 @@ public class Contador extends AppCompatActivity {
 
     }
     public void pausartiempo(View v){
+
         if(timing){
             chronometer.stop();
             pauseoff = SystemClock.elapsedRealtime() - chronometer.getBase();
@@ -113,14 +123,13 @@ public class Contador extends AppCompatActivity {
     private void resetearconteo(){
         clicks = 0;
         conteo.setText(clicks + "");
+        clickpmin.setText("Clicks en 0"+" minuto(s): "+clicks);
     }
 
     private void contar(){
+
         clicks++;
         conteo.setText(clicks + "");
     }
 
-    private void getClicks(){
-
-    }
 }
