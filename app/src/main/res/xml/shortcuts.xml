@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shortcuts
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <shortcut
+       android:shortcutId="promediohr"
+        android:enabled="true"
+        android:icon="mipmap/ic_prom"
+        android:shortcutShortLabel="@string/promediohr"
+        android:shortcutLongLabel="@string/promediohr" >
+
+    <intent
+        android:action="android.intent.action.VIEW"
+        android:targetPackage="com.example.rehab"
+        android:targetClass="com.example.rehab.MainActivity"/>
+ </shortcut>
+
+ <shortcut
+android:shortcutId="promediodia"
+android:enabled="true"
+android:icon="mipmap/ic_prom"
+android:shortcutShortLabel="@string/promediodia"
+android:shortcutLongLabel="@string/promediodia" >
+
+<intent
+android:action="android.intent.action.VIEW"
+android:targetPackage="com.example.rehab"
+android:targetClass="com.example.rehab.MainActivity"/>
+
+  </shortcut>
+
+<shortcut
+android:shortcutId="promediosem"
+android:enabled="true"
+android:icon="mipmap/ic_prom"
+android:shortcutShortLabel="@string/promediosem"
+android:shortcutLongLabel="@string/promediosem">
+
+    <intent
+    android:action="android.intent.action.VIEW"
+    android:targetPackage="com.example.rehab"
+    android:targetClass="com.example.rehab.MainActivity"/>
+
+    </shortcut>
+ </shortcuts>
