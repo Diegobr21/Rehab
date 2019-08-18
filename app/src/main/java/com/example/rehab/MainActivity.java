@@ -81,9 +81,10 @@ public class MainActivity extends AppCompatActivity implements DatePickerDialog.
     }
 
     private String[][] por_tiempo =
-            {{"Total Dia: ","210"},
-                    {"Promedio por hora"," 48"},
-                    {"Por minuto","5"}};
+            {{"Promedio semanal: ","210"},
+                    {"Promedio por dia:"," 48"},
+                    {"Por hora:","5"},
+                    {"Total semanal:", "189"}};
 
     public void mnext(){
         Intent intent1 = new Intent(this, Contador.class);

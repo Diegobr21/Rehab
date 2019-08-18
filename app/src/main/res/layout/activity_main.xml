@@ -11,7 +11,7 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Contador de toques en logo de app"
+        android:text="Datos Semanales"
         android:textAlignment="center"
         android:textColor="@android:color/holo_red_light"
         android:textSize="30sp"
@@ -26,7 +26,7 @@
         android:textSize="22sp"
         android:textColor="@android:color/black"
         android:textAlignment="center"
-        android:text="Da click para seleccionar fecha"
+        android:text="Selecciona el inicio de la semana dando click aqui"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/fecha"/>
