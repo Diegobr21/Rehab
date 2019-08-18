@@ -5,7 +5,7 @@
     <shortcut
        android:shortcutId="promediohr"
         android:enabled="true"
-        android:icon="mipmap/ic_prom"
+        android:icon="@mipmap/ic_p2"
         android:shortcutShortLabel="@string/promediohr"
         android:shortcutLongLabel="@string/promediohr" >
 
@@ -18,7 +18,7 @@
  <shortcut
 android:shortcutId="promediodia"
 android:enabled="true"
-android:icon="mipmap/ic_prom"
+android:icon="@mipmap/ic_p2"
 android:shortcutShortLabel="@string/promediodia"
 android:shortcutLongLabel="@string/promediodia" >
 
@@ -30,11 +30,11 @@ android:targetClass="com.example.rehab.MainActivity"/>
   </shortcut>
 
 <shortcut
-android:shortcutId="promediosem"
-android:enabled="true"
-android:icon="mipmap/ic_prom"
-android:shortcutShortLabel="@string/promediosem"
-android:shortcutLongLabel="@string/promediosem">
+    android:shortcutId="promediosem"
+    android:enabled="true"
+    android:icon="@mipmap/ic_p2"
+    android:shortcutShortLabel="@string/promediosem"
+    android:shortcutLongLabel="@string/promediosem">
 
     <intent
     android:action="android.intent.action.VIEW"
