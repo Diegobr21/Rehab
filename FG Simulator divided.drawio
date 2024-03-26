@@ -1,90 +1,286 @@
-<mxfile host="app.diagrams.net" modified="2024-03-26T14:53:01.598Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36 Edg/121.0.0.0" etag="v7EkCi_oQMbWlZx7j-l0" version="23.1.7" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-26T15:37:15.849Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36 Edg/121.0.0.0" etag="iKqCsT7Nk1vEjWXCk4Cz" version="23.1.7" type="github" pages="2">
   <diagram name="C4: Lv1" id="kjVTZC8yL4Xrj-s7TF5h">
-    <mxGraphModel dx="1709" dy="813" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2392" dy="1138" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="s4JdbdMJo-KRI_eK0oYm-0" />
         <mxCell id="s4JdbdMJo-KRI_eK0oYm-1" parent="s4JdbdMJo-KRI_eK0oYm-0" />
-        <mxCell id="s4JdbdMJo-KRI_eK0oYm-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="s4JdbdMJo-KRI_eK0oYm-1" source="s4JdbdMJo-KRI_eK0oYm-3" target="s4JdbdMJo-KRI_eK0oYm-6" edge="1">
+        <mxCell id="yEYD4TBbQn-hpORmxHgq-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="s4JdbdMJo-KRI_eK0oYm-1" source="s4JdbdMJo-KRI_eK0oYm-3" target="yEYD4TBbQn-hpORmxHgq-3">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="s4JdbdMJo-KRI_eK0oYm-3" value="&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;Internal &amp;amp; External Sources&lt;/font&gt;&lt;br&gt;&lt;br&gt;Parameters, Inputs by users and customers&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#66B2FF;" parent="s4JdbdMJo-KRI_eK0oYm-1" vertex="1">
+        <mxCell id="s4JdbdMJo-KRI_eK0oYm-3" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;Current Scenario&lt;/b&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#66B2FF;" parent="s4JdbdMJo-KRI_eK0oYm-1" vertex="1">
           <mxGeometry x="121" y="910" width="190" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="s4JdbdMJo-KRI_eK0oYm-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="s4JdbdMJo-KRI_eK0oYm-1" source="s4JdbdMJo-KRI_eK0oYm-6" target="s4JdbdMJo-KRI_eK0oYm-11" edge="1">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="s4JdbdMJo-KRI_eK0oYm-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="s4JdbdMJo-KRI_eK0oYm-1" source="s4JdbdMJo-KRI_eK0oYm-6" target="yEYD4TBbQn-hpORmxHgq-2" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="495" y="1157.9999999999998" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="s4JdbdMJo-KRI_eK0oYm-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="s4JdbdMJo-KRI_eK0oYm-1" source="s4JdbdMJo-KRI_eK0oYm-6" target="s4JdbdMJo-KRI_eK0oYm-8" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="s4JdbdMJo-KRI_eK0oYm-6" value="&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;Cloud Storage&lt;/font&gt;&lt;br&gt;&lt;br&gt;Sharepoint, Dataverse, Database&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#CCFF99;" parent="s4JdbdMJo-KRI_eK0oYm-1" vertex="1">
+        <mxCell id="s4JdbdMJo-KRI_eK0oYm-6" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;Unconstrained&lt;/b&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#CCFF99;" parent="s4JdbdMJo-KRI_eK0oYm-1" vertex="1">
           <mxGeometry x="400" y="910" width="190" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="s4JdbdMJo-KRI_eK0oYm-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" parent="s4JdbdMJo-KRI_eK0oYm-1" source="s4JdbdMJo-KRI_eK0oYm-8" target="s4JdbdMJo-KRI_eK0oYm-18" edge="1">
+        <mxCell id="yEYD4TBbQn-hpORmxHgq-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="s4JdbdMJo-KRI_eK0oYm-1" source="s4JdbdMJo-KRI_eK0oYm-11" target="yEYD4TBbQn-hpORmxHgq-11">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="s4JdbdMJo-KRI_eK0oYm-8" value="&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;Visualization &amp;amp; Analysis&lt;/font&gt;&lt;br&gt;&lt;br&gt;Files and PowerBI&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFD966;" parent="s4JdbdMJo-KRI_eK0oYm-1" vertex="1">
-          <mxGeometry x="400" y="1158" width="190" height="110" as="geometry" />
+        <mxCell id="s4JdbdMJo-KRI_eK0oYm-11" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;Constrained by FMC&lt;/b&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FF9999;" parent="s4JdbdMJo-KRI_eK0oYm-1" vertex="1">
+          <mxGeometry x="710" y="910" width="190" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="s4JdbdMJo-KRI_eK0oYm-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="s4JdbdMJo-KRI_eK0oYm-1" source="s4JdbdMJo-KRI_eK0oYm-11" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="590" y="965" as="targetPoint" />
-          </mxGeometry>
+        <mxCell id="s4JdbdMJo-KRI_eK0oYm-13" value="&lt;b&gt;Constrained by Machine Utilization&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#CCCCFF;" parent="s4JdbdMJo-KRI_eK0oYm-1" vertex="1">
+          <mxGeometry x="1030" y="910" width="190" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="s4JdbdMJo-KRI_eK0oYm-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=14;" parent="s4JdbdMJo-KRI_eK0oYm-1" source="s4JdbdMJo-KRI_eK0oYm-11" target="s4JdbdMJo-KRI_eK0oYm-15" edge="1">
+        <mxCell id="s4JdbdMJo-KRI_eK0oYm-20" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Automated Execution&lt;/font&gt;&lt;br&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;Delete/Create&lt;/font&gt;" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;" parent="s4JdbdMJo-KRI_eK0oYm-1" vertex="1">
+          <mxGeometry x="1060" y="1460" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="s4JdbdMJo-KRI_eK0oYm-23" value="&lt;font style=&quot;font-size: 36px;&quot;&gt;FG Simulator steps&lt;/font&gt;" style="text;strokeColor=none;fillColor=none;html=1;fontSize=18;fontStyle=1;verticalAlign=middle;align=center;" parent="s4JdbdMJo-KRI_eK0oYm-1" vertex="1">
+          <mxGeometry x="860" y="490" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="yEYD4TBbQn-hpORmxHgq-2" value="Replenishment to erase" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="s4JdbdMJo-KRI_eK0oYm-1">
+          <mxGeometry x="412.5" y="1160" width="165" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="yEYD4TBbQn-hpORmxHgq-3" value="SKUs with their locked period" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="s4JdbdMJo-KRI_eK0oYm-1">
+          <mxGeometry x="133.5" y="1160" width="165" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="yEYD4TBbQn-hpORmxHgq-5" value="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="s4JdbdMJo-KRI_eK0oYm-1">
+          <mxGeometry x="60" y="1160" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="yEYD4TBbQn-hpORmxHgq-6" value="2" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="s4JdbdMJo-KRI_eK0oYm-1">
+          <mxGeometry x="350" y="1160" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="yEYD4TBbQn-hpORmxHgq-9" value="Unconstrained load" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="s4JdbdMJo-KRI_eK0oYm-1">
+          <mxGeometry x="412.5" y="1270" width="165" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="yEYD4TBbQn-hpORmxHgq-10" value="3" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="s4JdbdMJo-KRI_eK0oYm-1">
+          <mxGeometry x="350" y="1270" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="yEYD4TBbQn-hpORmxHgq-11" value="Constrained by FMC load" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="s4JdbdMJo-KRI_eK0oYm-1">
+          <mxGeometry x="722.5" y="1160" width="165" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="yEYD4TBbQn-hpORmxHgq-12" value="4" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="s4JdbdMJo-KRI_eK0oYm-1">
+          <mxGeometry x="660" y="1160" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="yEYD4TBbQn-hpORmxHgq-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="s4JdbdMJo-KRI_eK0oYm-1" source="yEYD4TBbQn-hpORmxHgq-14" target="s4JdbdMJo-KRI_eK0oYm-13">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="s4JdbdMJo-KRI_eK0oYm-11" value="&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;Data &amp;amp; Logic Processing&lt;/font&gt;&lt;br&gt;&lt;br&gt;Scheduled &amp;amp; triggered execution&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FF9999;" parent="s4JdbdMJo-KRI_eK0oYm-1" vertex="1">
-          <mxGeometry x="760" y="910" width="190" height="110" as="geometry" />
+        <mxCell id="yEYD4TBbQn-hpORmxHgq-14" value="Loaded supply" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="s4JdbdMJo-KRI_eK0oYm-1">
+          <mxGeometry x="1042.5" y="770" width="165" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="s4JdbdMJo-KRI_eK0oYm-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="s4JdbdMJo-KRI_eK0oYm-1" source="s4JdbdMJo-KRI_eK0oYm-13" target="s4JdbdMJo-KRI_eK0oYm-11" edge="1">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="yEYD4TBbQn-hpORmxHgq-16" value="Any loaded supply, either current scenario in SAP or simulation" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="s4JdbdMJo-KRI_eK0oYm-1">
+          <mxGeometry x="1030.5" y="720" width="197" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="YBztxE-2EQx4gSuMka6i-0" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;shadow=1;strokeColor=#000000;fontSize=14;fillColor=#FF9999;" parent="s4JdbdMJo-KRI_eK0oYm-1" source="s4JdbdMJo-KRI_eK0oYm-13" target="s4JdbdMJo-KRI_eK0oYm-18" edge="1">
+        <mxCell id="yEYD4TBbQn-hpORmxHgq-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="s4JdbdMJo-KRI_eK0oYm-1" source="yEYD4TBbQn-hpORmxHgq-17" target="s4JdbdMJo-KRI_eK0oYm-11">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="855" y="1330" />
-              <mxPoint x="205" y="1330" />
+              <mxPoint x="805" y="860" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="s4JdbdMJo-KRI_eK0oYm-13" value="&lt;b&gt;User Interactions&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#CCCCFF;" parent="s4JdbdMJo-KRI_eK0oYm-1" vertex="1">
-          <mxGeometry x="760" y="1160" width="190" height="110" as="geometry" />
+        <mxCell id="yEYD4TBbQn-hpORmxHgq-17" value="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="s4JdbdMJo-KRI_eK0oYm-1">
+          <mxGeometry x="660" y="840" width="50" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="s4JdbdMJo-KRI_eK0oYm-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="s4JdbdMJo-KRI_eK0oYm-1" source="s4JdbdMJo-KRI_eK0oYm-15" target="s4JdbdMJo-KRI_eK0oYm-6" edge="1">
+        <mxCell id="yEYD4TBbQn-hpORmxHgq-20" value="&lt;b&gt;Change Overs (indirect labor) optimization&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFCE9F;" vertex="1" parent="s4JdbdMJo-KRI_eK0oYm-1">
+          <mxGeometry x="1320" y="910" width="190" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="yEYD4TBbQn-hpORmxHgq-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="s4JdbdMJo-KRI_eK0oYm-1" source="yEYD4TBbQn-hpORmxHgq-21" target="yEYD4TBbQn-hpORmxHgq-20">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="s4JdbdMJo-KRI_eK0oYm-15" value="&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;Data Systems&lt;/font&gt;&lt;br&gt;SAP &amp;amp; External&lt;br&gt;&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#66B2FF;" parent="s4JdbdMJo-KRI_eK0oYm-1" vertex="1">
-          <mxGeometry x="760" y="700" width="190" height="110" as="geometry" />
+        <mxCell id="yEYD4TBbQn-hpORmxHgq-21" value="Loaded supply" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="s4JdbdMJo-KRI_eK0oYm-1">
+          <mxGeometry x="1331.5" y="770" width="165" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="s4JdbdMJo-KRI_eK0oYm-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="s4JdbdMJo-KRI_eK0oYm-1" source="s4JdbdMJo-KRI_eK0oYm-18" target="s4JdbdMJo-KRI_eK0oYm-13" edge="1">
+        <mxCell id="yEYD4TBbQn-hpORmxHgq-22" value="Any loaded supply, either current scenario in SAP or simulation" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="s4JdbdMJo-KRI_eK0oYm-1">
+          <mxGeometry x="1319.5" y="720" width="197" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="yEYD4TBbQn-hpORmxHgq-24" value="&lt;b&gt;Labor balance&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#00CCCC;" vertex="1" parent="s4JdbdMJo-KRI_eK0oYm-1">
+          <mxGeometry x="1600.5" y="910" width="190" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="yEYD4TBbQn-hpORmxHgq-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="s4JdbdMJo-KRI_eK0oYm-1" source="yEYD4TBbQn-hpORmxHgq-26" target="yEYD4TBbQn-hpORmxHgq-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yEYD4TBbQn-hpORmxHgq-26" value="Loaded supply" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="s4JdbdMJo-KRI_eK0oYm-1">
+          <mxGeometry x="1612" y="770" width="165" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="yEYD4TBbQn-hpORmxHgq-27" value="Any loaded supply, either current scenario in SAP or simulation" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="s4JdbdMJo-KRI_eK0oYm-1">
+          <mxGeometry x="1600" y="720" width="197" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="yEYD4TBbQn-hpORmxHgq-28" value="Constrained by Machine utilization load" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="s4JdbdMJo-KRI_eK0oYm-1">
+          <mxGeometry x="1042.5" y="1160" width="165" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="yEYD4TBbQn-hpORmxHgq-29" value="5" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="s4JdbdMJo-KRI_eK0oYm-1">
+          <mxGeometry x="980" y="1160" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="yEYD4TBbQn-hpORmxHgq-30" value="Optimized by Change Overs load&amp;nbsp;" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="s4JdbdMJo-KRI_eK0oYm-1">
+          <mxGeometry x="1337.5" y="1160" width="165" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="yEYD4TBbQn-hpORmxHgq-31" value="6" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="s4JdbdMJo-KRI_eK0oYm-1">
+          <mxGeometry x="1275" y="1160" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="yEYD4TBbQn-hpORmxHgq-32" value="Balanced labor load" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="s4JdbdMJo-KRI_eK0oYm-1">
+          <mxGeometry x="1612" y="1160" width="165" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="yEYD4TBbQn-hpORmxHgq-33" value="7" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="s4JdbdMJo-KRI_eK0oYm-1">
+          <mxGeometry x="1549.5" y="1160" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="yEYD4TBbQn-hpORmxHgq-37" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="s4JdbdMJo-KRI_eK0oYm-1" source="yEYD4TBbQn-hpORmxHgq-34" target="yEYD4TBbQn-hpORmxHgq-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yEYD4TBbQn-hpORmxHgq-34" value="Loaded supply" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="s4JdbdMJo-KRI_eK0oYm-1">
+          <mxGeometry x="1032" y="1580" width="165" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="yEYD4TBbQn-hpORmxHgq-35" value="Any loaded supply, either current scenario in SAP or simulation" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="s4JdbdMJo-KRI_eK0oYm-1">
+          <mxGeometry x="1020" y="1530" width="197" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="yEYD4TBbQn-hpORmxHgq-36" value="&lt;b&gt;Generate SAP template, erase current load and upload template&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#66B2FF;" vertex="1" parent="s4JdbdMJo-KRI_eK0oYm-1">
+          <mxGeometry x="1275" y="1565" width="190" height="110" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="Copy of C4: Lv1" id="j_PDtE8FFZbHZGpRwhBB">
+    <mxGraphModel dx="2392" dy="1138" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="QMdyK0dVc4BRn7tv0Kd8-0" />
+        <mxCell id="QMdyK0dVc4BRn7tv0Kd8-1" parent="QMdyK0dVc4BRn7tv0Kd8-0" />
+        <mxCell id="gxGBMuW4GWb1mslM-jjJ-2" value="&lt;font style=&quot;&quot;&gt;&lt;b style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 24px;&quot;&gt;Labor Hours balance&lt;br&gt;&lt;/span&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;/b&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="QMdyK0dVc4BRn7tv0Kd8-1">
+          <mxGeometry x="1540" y="630" width="310" height="750" as="geometry" />
+        </mxCell>
+        <mxCell id="gxGBMuW4GWb1mslM-jjJ-1" value="&lt;font style=&quot;&quot;&gt;&lt;b style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 24px;&quot;&gt;Machine utilization and efficiency optimization&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;/font&gt;&lt;br&gt;&lt;/b&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="QMdyK0dVc4BRn7tv0Kd8-1">
+          <mxGeometry x="930" y="630" width="610" height="750" as="geometry" />
+        </mxCell>
+        <mxCell id="gxGBMuW4GWb1mslM-jjJ-0" value="&lt;font style=&quot;&quot;&gt;&lt;b style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 24px;&quot;&gt;Unconstrained plan and Full Manufacturing Cost constrain&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;/font&gt;&lt;br&gt;&lt;/b&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="QMdyK0dVc4BRn7tv0Kd8-1">
+          <mxGeometry x="40" y="630" width="890" height="750" as="geometry" />
+        </mxCell>
+        <mxCell id="QMdyK0dVc4BRn7tv0Kd8-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="QMdyK0dVc4BRn7tv0Kd8-1" source="QMdyK0dVc4BRn7tv0Kd8-3" target="QMdyK0dVc4BRn7tv0Kd8-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QMdyK0dVc4BRn7tv0Kd8-3" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;Current Scenario&lt;/b&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#66B2FF;" vertex="1" parent="QMdyK0dVc4BRn7tv0Kd8-1">
+          <mxGeometry x="121" y="910" width="190" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="QMdyK0dVc4BRn7tv0Kd8-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="QMdyK0dVc4BRn7tv0Kd8-1" source="QMdyK0dVc4BRn7tv0Kd8-5" target="QMdyK0dVc4BRn7tv0Kd8-11">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="880" y="1310" as="targetPoint" />
+            <mxPoint x="495" y="1157.9999999999998" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QMdyK0dVc4BRn7tv0Kd8-5" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;Unconstrained&lt;/b&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#CCFF99;" vertex="1" parent="QMdyK0dVc4BRn7tv0Kd8-1">
+          <mxGeometry x="400" y="910" width="190" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="QMdyK0dVc4BRn7tv0Kd8-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="QMdyK0dVc4BRn7tv0Kd8-1" source="QMdyK0dVc4BRn7tv0Kd8-7" target="QMdyK0dVc4BRn7tv0Kd8-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QMdyK0dVc4BRn7tv0Kd8-7" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;Constrained by FMC&lt;/b&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FF9999;" vertex="1" parent="QMdyK0dVc4BRn7tv0Kd8-1">
+          <mxGeometry x="710" y="910" width="190" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="gxGBMuW4GWb1mslM-jjJ-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="QMdyK0dVc4BRn7tv0Kd8-1" source="QMdyK0dVc4BRn7tv0Kd8-8" target="QMdyK0dVc4BRn7tv0Kd8-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QMdyK0dVc4BRn7tv0Kd8-8" value="&lt;b&gt;Constrained by Machine Utilization&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#CCCCFF;" vertex="1" parent="QMdyK0dVc4BRn7tv0Kd8-1">
+          <mxGeometry x="1030" y="910" width="190" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="QMdyK0dVc4BRn7tv0Kd8-9" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Automated Execution&lt;/font&gt;&lt;br&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;Delete/Create&lt;/font&gt;" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;" vertex="1" parent="QMdyK0dVc4BRn7tv0Kd8-1">
+          <mxGeometry x="1060" y="1460" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="QMdyK0dVc4BRn7tv0Kd8-10" value="&lt;font style=&quot;font-size: 36px;&quot;&gt;FG Simulator steps&lt;/font&gt;" style="text;strokeColor=none;fillColor=none;html=1;fontSize=18;fontStyle=1;verticalAlign=middle;align=center;" vertex="1" parent="QMdyK0dVc4BRn7tv0Kd8-1">
+          <mxGeometry x="860" y="490" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="QMdyK0dVc4BRn7tv0Kd8-11" value="Replenishment to erase" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="QMdyK0dVc4BRn7tv0Kd8-1">
+          <mxGeometry x="412.5" y="1160" width="165" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="QMdyK0dVc4BRn7tv0Kd8-12" value="SKUs with their locked period" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="QMdyK0dVc4BRn7tv0Kd8-1">
+          <mxGeometry x="133.5" y="1160" width="165" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="QMdyK0dVc4BRn7tv0Kd8-13" value="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="QMdyK0dVc4BRn7tv0Kd8-1">
+          <mxGeometry x="60" y="1160" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="QMdyK0dVc4BRn7tv0Kd8-14" value="2" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="QMdyK0dVc4BRn7tv0Kd8-1">
+          <mxGeometry x="350" y="1160" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="QMdyK0dVc4BRn7tv0Kd8-15" value="Unconstrained load" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="QMdyK0dVc4BRn7tv0Kd8-1">
+          <mxGeometry x="412.5" y="1270" width="165" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="QMdyK0dVc4BRn7tv0Kd8-16" value="3" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="QMdyK0dVc4BRn7tv0Kd8-1">
+          <mxGeometry x="350" y="1270" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="QMdyK0dVc4BRn7tv0Kd8-17" value="Constrained by FMC load" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="QMdyK0dVc4BRn7tv0Kd8-1">
+          <mxGeometry x="722.5" y="1160" width="165" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="QMdyK0dVc4BRn7tv0Kd8-18" value="4" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="QMdyK0dVc4BRn7tv0Kd8-1">
+          <mxGeometry x="660" y="1160" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="QMdyK0dVc4BRn7tv0Kd8-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="QMdyK0dVc4BRn7tv0Kd8-1" source="QMdyK0dVc4BRn7tv0Kd8-20" target="QMdyK0dVc4BRn7tv0Kd8-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QMdyK0dVc4BRn7tv0Kd8-20" value="Loaded supply" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="QMdyK0dVc4BRn7tv0Kd8-1">
+          <mxGeometry x="1042.5" y="770" width="165" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="QMdyK0dVc4BRn7tv0Kd8-21" value="Any loaded supply, either current scenario in SAP or simulation" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="QMdyK0dVc4BRn7tv0Kd8-1">
+          <mxGeometry x="1030.5" y="720" width="197" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="QMdyK0dVc4BRn7tv0Kd8-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="QMdyK0dVc4BRn7tv0Kd8-1" source="QMdyK0dVc4BRn7tv0Kd8-23" target="QMdyK0dVc4BRn7tv0Kd8-7">
+          <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="205" y="1330" />
-              <mxPoint x="855" y="1330" />
+              <mxPoint x="805" y="860" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="s4JdbdMJo-KRI_eK0oYm-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.44;entryY=1.033;entryDx=0;entryDy=0;entryPerimeter=0;" parent="s4JdbdMJo-KRI_eK0oYm-1" source="s4JdbdMJo-KRI_eK0oYm-18" target="s4JdbdMJo-KRI_eK0oYm-3" edge="1">
+        <mxCell id="QMdyK0dVc4BRn7tv0Kd8-23" value="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="QMdyK0dVc4BRn7tv0Kd8-1">
+          <mxGeometry x="660" y="840" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="gxGBMuW4GWb1mslM-jjJ-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="QMdyK0dVc4BRn7tv0Kd8-1" source="QMdyK0dVc4BRn7tv0Kd8-24" target="QMdyK0dVc4BRn7tv0Kd8-34">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="s4JdbdMJo-KRI_eK0oYm-18" value="Users" style="shape=actor;whiteSpace=wrap;html=1;" parent="s4JdbdMJo-KRI_eK0oYm-1" vertex="1">
-          <mxGeometry x="180" y="1160" width="50" height="70" as="geometry" />
+        <mxCell id="QMdyK0dVc4BRn7tv0Kd8-24" value="&lt;b&gt;Change Overs (indirect labor) optimization&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFCE9F;" vertex="1" parent="QMdyK0dVc4BRn7tv0Kd8-1">
+          <mxGeometry x="1320" y="910" width="190" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="s4JdbdMJo-KRI_eK0oYm-19" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Extraction of data from&lt;br&gt;&amp;nbsp;Production Environment&lt;/font&gt;" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;" parent="s4JdbdMJo-KRI_eK0oYm-1" vertex="1">
-          <mxGeometry x="531.5" y="700" width="100" height="40" as="geometry" />
+        <mxCell id="QMdyK0dVc4BRn7tv0Kd8-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="QMdyK0dVc4BRn7tv0Kd8-1" source="QMdyK0dVc4BRn7tv0Kd8-26" target="QMdyK0dVc4BRn7tv0Kd8-24">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="s4JdbdMJo-KRI_eK0oYm-20" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Automated Execution&lt;/font&gt;&lt;br&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;Update/Create&lt;/font&gt;" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;" parent="s4JdbdMJo-KRI_eK0oYm-1" vertex="1">
-          <mxGeometry x="930" y="840" width="100" height="40" as="geometry" />
+        <mxCell id="QMdyK0dVc4BRn7tv0Kd8-26" value="Loaded supply" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="QMdyK0dVc4BRn7tv0Kd8-1">
+          <mxGeometry x="1331.5" y="770" width="165" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="s4JdbdMJo-KRI_eK0oYm-21" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;Connection to processed data&lt;/span&gt;" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;" parent="s4JdbdMJo-KRI_eK0oYm-1" vertex="1">
-          <mxGeometry x="470" y="1040" width="100" height="40" as="geometry" />
+        <mxCell id="QMdyK0dVc4BRn7tv0Kd8-27" value="Any loaded supply, either current scenario in SAP or simulation" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="QMdyK0dVc4BRn7tv0Kd8-1">
+          <mxGeometry x="1319.5" y="720" width="197" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="s4JdbdMJo-KRI_eK0oYm-22" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;Triggers &amp;amp; Variables for execution&lt;/span&gt;" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;" parent="s4JdbdMJo-KRI_eK0oYm-1" vertex="1">
-          <mxGeometry x="930" y="1110" width="100" height="40" as="geometry" />
+        <mxCell id="gxGBMuW4GWb1mslM-jjJ-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="QMdyK0dVc4BRn7tv0Kd8-1" source="QMdyK0dVc4BRn7tv0Kd8-28" target="QMdyK0dVc4BRn7tv0Kd8-36">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="s4JdbdMJo-KRI_eK0oYm-23" value="&lt;font style=&quot;font-size: 36px;&quot;&gt;DataFoundation Architecture: Level 1&lt;/font&gt;" style="text;strokeColor=none;fillColor=none;html=1;fontSize=18;fontStyle=1;verticalAlign=middle;align=center;" parent="s4JdbdMJo-KRI_eK0oYm-1" vertex="1">
-          <mxGeometry x="600" y="570" width="100" height="40" as="geometry" />
+        <mxCell id="QMdyK0dVc4BRn7tv0Kd8-28" value="&lt;b&gt;Labor balance&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#00CCCC;" vertex="1" parent="QMdyK0dVc4BRn7tv0Kd8-1">
+          <mxGeometry x="1600.5" y="910" width="190" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="QMdyK0dVc4BRn7tv0Kd8-29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="QMdyK0dVc4BRn7tv0Kd8-1" source="QMdyK0dVc4BRn7tv0Kd8-30" target="QMdyK0dVc4BRn7tv0Kd8-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QMdyK0dVc4BRn7tv0Kd8-30" value="Loaded supply" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="QMdyK0dVc4BRn7tv0Kd8-1">
+          <mxGeometry x="1612" y="770" width="165" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="QMdyK0dVc4BRn7tv0Kd8-31" value="Any loaded supply, either current scenario in SAP or simulation" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="QMdyK0dVc4BRn7tv0Kd8-1">
+          <mxGeometry x="1600" y="720" width="197" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="QMdyK0dVc4BRn7tv0Kd8-32" value="Constrained by Machine utilization load" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="QMdyK0dVc4BRn7tv0Kd8-1">
+          <mxGeometry x="1042.5" y="1160" width="165" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="QMdyK0dVc4BRn7tv0Kd8-33" value="5" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="QMdyK0dVc4BRn7tv0Kd8-1">
+          <mxGeometry x="980" y="1160" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="QMdyK0dVc4BRn7tv0Kd8-34" value="Optimized by Change Overs load&amp;nbsp;" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="QMdyK0dVc4BRn7tv0Kd8-1">
+          <mxGeometry x="1333.5" y="1160" width="165" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="QMdyK0dVc4BRn7tv0Kd8-35" value="6" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="QMdyK0dVc4BRn7tv0Kd8-1">
+          <mxGeometry x="1271" y="1160" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="QMdyK0dVc4BRn7tv0Kd8-36" value="Balanced labor load" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="QMdyK0dVc4BRn7tv0Kd8-1">
+          <mxGeometry x="1612" y="1160" width="165" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="QMdyK0dVc4BRn7tv0Kd8-37" value="7" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="QMdyK0dVc4BRn7tv0Kd8-1">
+          <mxGeometry x="1549.5" y="1160" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="QMdyK0dVc4BRn7tv0Kd8-38" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="QMdyK0dVc4BRn7tv0Kd8-1" source="QMdyK0dVc4BRn7tv0Kd8-39" target="QMdyK0dVc4BRn7tv0Kd8-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QMdyK0dVc4BRn7tv0Kd8-39" value="Loaded supply" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="QMdyK0dVc4BRn7tv0Kd8-1">
+          <mxGeometry x="1032" y="1580" width="165" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="QMdyK0dVc4BRn7tv0Kd8-40" value="Any loaded supply, either current scenario in SAP or simulation" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="QMdyK0dVc4BRn7tv0Kd8-1">
+          <mxGeometry x="1020" y="1530" width="197" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="QMdyK0dVc4BRn7tv0Kd8-41" value="&lt;b&gt;Generate SAP template, erase current load and upload template&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#66B2FF;" vertex="1" parent="QMdyK0dVc4BRn7tv0Kd8-1">
+          <mxGeometry x="1275" y="1565" width="190" height="110" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
